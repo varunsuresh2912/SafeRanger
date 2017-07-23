@@ -5,7 +5,7 @@ The thermal data is sent to the control center through VNC, a Wi-Fi server with 
 
 
 ### SafeRanger current prototpe
-<img width="772" alt="proto1" src="https://cloud.githubusercontent.com/assets/1295467/25814388/f857bb24-343a-11e7-8361-c951c5acf781.pnghttps://cdn.hackaday.io/images/7356861499267726200.JPG">
+![picture3](https://cdn.hackaday.io/images/7356861499267726200.JPG)
 
 
 ## Getting Started
@@ -17,8 +17,8 @@ SafeRanger was designed to be simple to develop and the components can be added 
 	3. Tank Chassis with dual DC motors
 	4. HC-05 module
 	5. Arduino Nano
-  6. L298D module
-  7. MQ-2 Gas Sensors
+        6. L298D module
+        7. MQ-2 Gas Sensors
 
 Connections: 
 Connect SDA, SCL of ADC to the raspberry pi 3 respectively and Vin,Gnd to 3.3V and Gnd. Follow the instructions of the FLIR thermal module hookup instruction in Sparkfun. 
@@ -30,7 +30,6 @@ Connect SDA, SCL of ADC to the raspberry pi 3 respectively and Vin,Gnd to 3.3V a
 	1. Python 2.7
 	2. Qt
 	3. VNC
-
 ```
 Visualize the data on the tightVNC app on the phone
 
